@@ -25,7 +25,7 @@ function selectCell(X, Y){
     Posible5(X ,Y);
     Posible6(X ,Y);
     Posible7(X ,Y);
-    Posible8(X ,Y);
+    Posible8(X, Y);
 }
 
 function PaintCell(X, Y){
@@ -105,5 +105,6 @@ function ClearBoard(){
         }
     }
 }
+
 
 autoplay();
